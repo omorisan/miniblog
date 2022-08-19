@@ -18,7 +18,8 @@ use App\Http\Controllers\MailController;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return 1;
+    //return view('welcome');
 });
 
 Route::group(['middleware' => ['auth']], function () {
