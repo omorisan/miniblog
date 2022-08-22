@@ -21,7 +21,7 @@ class TestMail extends Mailable
         //$this->name = $name;
         //$this->email = $email;
         $this->name = 'テスト';
-        $this->email = '2022@omorisan.jp';
+        $this->email = 'info@fushigiame.jp';
     }
 
     /**
@@ -32,7 +32,6 @@ class TestMail extends Mailable
     public function build()
     {
         return $this->to($this->email)
-        ->from('web@denryu.site')
             ->subject('テストタイトル')
             ->view('mail.mail')
             ->with([
