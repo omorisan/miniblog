@@ -21,7 +21,7 @@ class TestMail extends Mailable
         //$this->name = $name;
         //$this->email = $email;
         $this->name = 'テスト';
-        $this->email = 'info@fushigiame.jp';
+        $this->email = '2022@omorisan.jp';
     }
 
     /**
