@@ -13,11 +13,5 @@
     <button type="submit">ログイン</button>
     <a href="/">キャンセル</a>
 </form>
-<script>
-    window.addEventListener('load', ()=>{
-        const el_form = document.forms[0];
-        el_form.email.value = '2022@omorisan.jp';
-        el_form.password.value = '6nyg12345';
-    });
-</script>
+
 @endsection()
